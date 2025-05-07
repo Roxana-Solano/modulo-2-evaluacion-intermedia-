@@ -16,15 +16,20 @@
         <section>
             <h1>Juego Piedra, Papel y Tijera</h1>
             <h3>Introduce aquí tu jugada:</h3>
-            <select id="card" name="usercard">
-                <option value="visa">Seleccione su jugada</option>
+            <select class="js_selecplay">
+                <option value="js_play">Seleccione su jugada</option>
+                <option value="stone">Piedra</option>
+                <option value="paper">Papel</option>
+                <option value="scissors">Tijera</option>
             </select>
-            <button type="submit">Jugar</button>
-            <p>
+            <button class="js_button">Jugar</button>
+            <p class="text">
                 Vamos a Jugar!
             </p>
-            <div>Juador:</div>
-            <div>computadora:</div>
+            <div>Jugador: <div class="playerPoint">0</div>
+            </div>
+            <div>computadora: <div class="computerPoint">0</div>
+            </div>
         </section>
 
     </main>
