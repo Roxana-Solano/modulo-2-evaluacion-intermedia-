@@ -1,0 +1,10 @@
+.boxprin{
+    display: block;
+    border: solid;
+    padding-block: 4%;
+    margin-block: 5%;
+    text-align: center;
+    border-width: 6px;
+    border-style: solid;
+    border-color: green
+}
